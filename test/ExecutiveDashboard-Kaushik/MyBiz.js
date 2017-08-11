@@ -81,7 +81,6 @@ ST.button('cycle[reference=\"filterButton\"] menu > menucheckitem[text=\"Forum\"
          });
     });     
 
-
 //News-news     
      it("should Click News-News", function() {
 ST.button('cycle[reference=\"filterButton\"]').click(132, 16);
