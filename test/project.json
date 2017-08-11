@@ -1,0 +1,109 @@
+{
+    "framework": "jasmine",
+    "libs": [
+        {
+            "disabled": false,
+            "path": "new/library.js",
+            "type": "file"
+        }
+    ],
+    "coverageFilters": [],
+    "scenarios": [
+        {
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "/test/ContactsApp/lib",
+                    "type": "directory"
+                }
+            ],
+            "coverageFilters": [],
+            "webdriverContext": "webdriver",
+            "sandbox": true,
+            "globals": "*",
+            "directory": "ContactsApp-Ravi",
+            "name": "ContactsApp-Ravi"
+        },
+        {
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "/test/lib/CommonMethods.js",
+                    "type": "file"
+                }
+            ],
+            "coverageFilters": [],
+            "sandbox": true,
+            "globals": "*",
+            "directory": "TicketsApp-Archana",
+            "name": "TicketApp-Archana",
+            "page": "http://examples.sencha.com/extjs/6.0.0/examples/classic/ticket-app/index.html",
+            "webdriverContext": "webdriver"
+        },
+        {
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "/test/TicketApp-Shiva/lib",
+                    "type": "directory"
+                }
+            ],
+            "coverageFilters": [],
+            "webdriverContext": "webdriver",
+            "sandbox": true,
+            "globals": "*",
+            "directory": "TicketApp-Shiva",
+            "name": "TicketApp-Shiva",
+            "page": "http://examples.sencha.com/extjs/6.0.0/examples/classic/ticket-app/index.html"
+        },
+        {
+            "libs": [
+                {
+                    "disabled": true,
+                    "path": "/test/ExecutiveDashboard-Kaushik/lib",
+                    "type": "directory"
+                }
+            ],
+            "coverageFilters": [],
+            "webdriverContext": "webdriver",
+            "sandbox": true,
+            "globals": "*",
+            "directory": "ExecutiveDashboard-Kaushik",
+            "name": "ExDashboard-Kaushik",
+            "page": "http://examples.sencha.com/extjs/6.0.0/examples/classic/executive-dashboard/index.html"
+        },
+        {
+            "libs": [],
+            "coverageFilters": [],
+            "webdriverContext": "webdriver",
+            "sandbox": true,
+            "globals": "*",
+            "directory": "test_charts",
+            "page": "localhost:1841/",
+            "name": "test charts"
+        },
+        {
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "/test/lib/CommonMethods.js",
+                    "type": "file"
+                }
+            ],
+            "coverageFilters": [],
+            "sandbox": false,
+            "launch": false,
+            "globals": "*",
+            "directory": "Inbrowser-AdminApp",
+            "name": "Inbrowser-AdminApp",
+            "page": "http://localhost:1841/admin-dashboard/#dashboard"
+        }
+    ],
+    "pageObjects": [
+        {
+            "name": "ExDashboard",
+            "url": "http://examples.sencha.com/extjs/6.0.0/examples/classic/executive-dashboard/index.html#!kpi/clicks"
+        }
+    ],
+    "subjectUrl": "http://senchacontacts.herokuapp.com/#contacts"
+}

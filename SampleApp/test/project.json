@@ -1,0 +1,17 @@
+{
+    "framework": "jasmine",
+    "libs": [],
+    "coverageFilters": [],
+    "scenarios": [
+        {
+            "libs": [],
+            "coverageFilters": [],
+            "sandbox": false,
+            "globals": "*",
+            "directory": "Unit",
+            "name": "Unit"
+        }
+    ],
+    "pageObjects": [],
+    "subjectUrl": "http://localhost:1841/SampleApp/"
+}

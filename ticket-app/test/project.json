@@ -1,0 +1,40 @@
+{
+    "framework": "jasmine",
+    "libs": [],
+    "coverageFilters": [],
+    "scenarios": [
+        {
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "/test/E-E_test_case/lib",
+                    "type": "directory"
+                }
+            ],
+            "coverageFilters": [],
+            "webdriverContext": "webdriver",
+            "sandbox": true,
+            "globals": "*",
+            "directory": "E-E_test_case",
+            "page": "http://localhost:1841/ticket-app/",
+            "name": "E-E test case"
+        },
+        {
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "/test/InBrowserUnitTest/lib",
+                    "type": "directory"
+                }
+            ],
+            "coverageFilters": [],
+            "sandbox": false,
+            "launch": false,
+            "globals": "*",
+            "directory": "InBrowserUnitTest",
+            "name": "InBrowserUnitTest",
+            "page": ""
+        }
+    ],
+    "pageObjects": []
+}

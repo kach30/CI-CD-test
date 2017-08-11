@@ -1,0 +1,68 @@
+{
+    "name": "Ticket",
+    "classpath": "${app.dir}/app,${framework.dir}/examples/ux",
+    "framework": "ext",
+    "toolkit": "classic",
+    "theme": "theme-neptune",
+    "requires": [
+        "charts",
+        "ux"
+    ],
+    "sass": {
+        "namespace": "Ticket"
+    },
+    "indexHtmlPath": "index.html",
+    "url": null,
+    "js": [
+        {
+            "path": "app.js",
+            "bundle": true
+        }
+    ],
+    "css": [
+        {
+            "path": "bootstrap.css",
+            "bootstrap": true
+        }
+    ],
+    "appCache": {
+        "cache": [
+            "index.html"
+        ],
+        "network": [
+            "*"
+        ],
+        "fallback": []
+    },
+    "resources": [
+        {
+            "path": "resources"
+        }
+    ],
+    "ignore": [
+        "^\\.svn$",
+        "^\\.git$"
+    ],
+    "archivePath": "archive",
+    "slicer": {
+        "js": [
+            {
+                "path": "${app.dir}/sass/example/custom.js",
+                "isWidgetManifest": true
+            }
+        ]
+    },
+    "production": {},
+    "testing": {},
+    "development": {
+        "tests": {
+            "path": "test/project.json"
+        }
+    },
+    "manifest": {
+        "name": "app.json",
+        "bootstrap": "bootstrap.json"
+    },
+    "output": "${ext.dir}/build/examples/classic/ticket-app",
+    "id": "0fac42e4-0b7e-4753-9802-1a3427a19d1e"
+}

@@ -1,0 +1,15 @@
+**/bootstrap.css
+**/bootstrap.js
+**/sass/example/bootstrap.js
+**/sass/example/bootstrap.json
+**/sass/example/bootstrap.jsonp
+**/build/
+**/classic.json
+**/classic.jsonp
+
+**/modern.json
+**/modern.jsonp
+resources/sass/.sass-cache/
+
+**/bootstrap.json
+**/bootstrap.jsonp

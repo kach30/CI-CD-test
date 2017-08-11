@@ -1,0 +1,26 @@
+{
+    "framework": "jasmine",
+    "libs": [],
+    "coverageFilters": [],
+    "scenarios": [
+        {
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "/test/UI/lib",
+                    "type": "directory"
+                }
+            ],
+            "coverageFilters": [],
+            "webdriverContext": "webdriver",
+            "sandbox": true,
+            "globals": "*",
+            "directory": "UI",
+            "name": "UI",
+            "page": "http://examples.sencha.com/extjs/6.0.0/examples/classic/ticket-app/index.html"
+        }
+    ],
+    "pageObjects": [],
+    "subjectUrl": "http://localhost:1841/EMS/",
+    "globals": "*"
+}

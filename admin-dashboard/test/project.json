@@ -1,0 +1,60 @@
+{
+    "framework": "jasmine",
+    "libs": [],
+    "coverageFilters": [],
+    "scenarios": [
+        {
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "/test/E-E/lib",
+                    "type": "directory"
+                }
+            ],
+            "coverageFilters": [],
+            "webdriverContext": "webdriver",
+            "sandbox": true,
+            "globals": "*",
+            "directory": "E-E",
+            "name": "E-E",
+            "page": "http://localhost:1841/admin-dashboard/"
+        },
+        {
+            "libs": [],
+            "coverageFilters": [],
+            "sandbox": false,
+            "globals": "*",
+            "directory": "Unit_Tests",
+            "name": "Unit_Tests"
+        },
+        {
+            "libs": [],
+            "coverageFilters": [],
+            "sandbox": false,
+            "profile": "modern",
+            "globals": "*",
+            "directory": "Modern_Unit_tests",
+            "name": "Modern Unit tests"
+        },
+        {
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "/test/NewUnitTests/lib",
+                    "type": "directory"
+                }
+            ],
+            "coverageFilters": [],
+            "sandbox": false,
+            "globals": "*",
+            "directory": "NewUnitTests",
+            "name": "NewUnitTests"
+        }
+    ],
+    "pageObjects": [
+        {
+            "name": "Main",
+            "url": "http://localhost:1841/admin-dashboard/#dashboard"
+        }
+    ]
+}

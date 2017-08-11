@@ -1,0 +1,56 @@
+{
+    "name": "ExecutiveDashboard",
+    "classpath": "${app.dir}/app",
+    "framework": "ext",
+    "toolkit": "classic",
+    "theme": "theme-crisp-touch",
+    "requires": [
+        "ux",
+        "charts",
+        "font-awesome"
+    ],
+    "sass": {
+        "namespace": "ExecDashboard",
+        "fashion": true
+    },
+    "indexHtmlPath": "index.html",
+    "url": null,
+    "js": [
+        {
+            "path": "app.js",
+            "bundle": true
+        }
+    ],
+    "css": [
+        {
+            "path": "bootstrap.css",
+            "bootstrap": true
+        }
+    ],
+    "appCache": {
+        "cache": [
+            "index.html"
+        ],
+        "network": [
+            "*"
+        ],
+        "fallback": []
+    },
+    "resources": [
+        {
+            "path": "resources"
+        }
+    ],
+    "ignore": [
+        "^\\.svn$",
+        "^\\.git$"
+    ],
+    "archivePath": "archive",
+    "output": "${workspace.build.dir}/${build.environment}/${app.name}",
+    "id": "30995804-454a-4b10-8285-9e6e9c8e6266",
+    "development": {
+        "tests": {
+            "path": "test/project.json"
+        }
+    }
+}
